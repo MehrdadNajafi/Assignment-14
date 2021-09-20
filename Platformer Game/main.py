@@ -20,15 +20,15 @@ class Game(arcade.Window):
         self.me = Player(self.w, self.h)
         self.ground_list = arcade.SpriteList()
 
-        for i in range(0, 1000, 120):
+        for i in range(0, 1000, 85):
             new_ground = Ground(i, 40)
             self.ground_list.append(new_ground)
 
-        for i in range(600, 800, 120):
+        for i in range(600, 800, 85):
             new_box = Box(i, 250)
             self.ground_list.append(new_box)
 
-        for i in range(100, 400, 120):
+        for i in range(100, 400, 85):
             new_box = Box(i, 450)
             self.ground_list.append(new_box)
 
