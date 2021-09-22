@@ -16,6 +16,7 @@ this is a simple Chrome Dino Game
 ✅ If you hit to the Cactus or Birds you will lose.\
 ✅ You can jump by 'Space' and also duck by 'Down buttom'. (duck is not in gane yet)\
 ✅ The Cactus and Birds spawn randomy.\
+✅ The speed of game increase by your score.\
 ✅ Your score shows in up right.
 ## Screen shots
 ![Desktop Screenshot 2021 09 22 - 17 02 02 57 (3)](https://user-images.githubusercontent.com/88179607/134353835-6e9abed3-99bb-4ae6-a67c-82b4cccabc5a.png)
