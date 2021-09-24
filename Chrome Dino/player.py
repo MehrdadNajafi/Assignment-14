@@ -5,18 +5,30 @@ class Player(arcade.AnimatedWalkingSprite):
     def __init__(self):
         super().__init__()
         self.width = 88
-        self.height = 90
+        self.height = 94
         
         self.stand_right_textures = []
+        for i in range(2):
+            self.stand_right_textures.append(load_texture(f"images/Dino/DinoRun{i+1}.png"))
+
+        self.stand_left_textures = []
         for i in range(2):
             self.stand_right_textures.append(load_texture(f"images/Dino/DinoRun{i+1}.png"))
 
         self.walk_right_textures = []
         for i in range(2):
             self.walk_right_textures.append(load_texture(f"images/Dino/DinoRun{i+1}.png"))
+
+        self.walk_left_textures = []
+        for i in range(2):
+            self.walk_left_textures.append(load_texture(f"images/Dino/DinoRun{i+1}.png"))
+
+        self.walk_down_textures = []
+        for i in range(2):
+            self.walk_down_textures.append(load_texture(f"images/Dino/DinoDuck{i+1}.png"))
         
         self.center_x = 100
-        self.center_y = 90
+        self.center_y = 86
         self.change_x = 0
         self.change_y = 0
         self.jump_sound = arcade.load_sound(":resources:sounds/jump3.wav")

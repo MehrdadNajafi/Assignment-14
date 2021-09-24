@@ -34,7 +34,6 @@ class Game(arcade.Window):
         self.time_for_day = time.time()
         self.count = 0
         self.flag_for_day = 0
-        self.flag_for_duck = 0
 
         self.game_over = GameOver(self.w, self.h)
         self.flag_for_exit = 0
@@ -134,6 +133,8 @@ class Game(arcade.Window):
             for tree in self.trees_list:
                 if tree.center_x < 0:
                     self.trees_list.remove(tree)
+
+            print(self.me.height)
             
     def on_key_press(self, key, modifiers: int):
         if key == arcade.key.SPACE:
@@ -142,7 +143,7 @@ class Game(arcade.Window):
                 arcade.play_sound(self.me.jump_sound, 5)
 
         elif key == arcade.key.DOWN:
-            self.flag_for_duck = 1
+            self.me.height = 60
 
         elif key == arcade.key.ESCAPE:
             self.game_over.exit_game()
@@ -150,8 +151,7 @@ class Game(arcade.Window):
 
     def on_key_release(self, key, modifiers: int):
         if key == arcade.key.DOWN:
-            self.flag_for_duck = 2
-
+            self.me.height = 94
 class GameOver(arcade.View):
     def __init__(self, w, h):
         super().__init__()
