@@ -14,7 +14,7 @@ this is a simple Chrome Dino Game
 ## Properties
 ✅ Every 20sec the screen turn to day or night.\
 ✅ If you hit to the Cactus or Birds you will lose.\
-✅ You can jump by 'Space' and also duck by 'Down buttom'. (duck is not in gane yet)\
+✅ You can jump by 'Space' and also duck by 'Down buttom'.\
 ✅ The Cactus and Birds spawn randomy.\
 ✅ The speed of game increase by your score.\
 ✅ Your score shows in up right.
