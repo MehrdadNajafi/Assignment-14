@@ -19,6 +19,6 @@ this is a simple Chrome Dino Game
 ✅ The speed of game increase by your score.\
 ✅ Your score shows in up right.
 ## Screen shots
-![Desktop Screenshot 2021 09 22 - 17 02 02 57 (3)](https://user-images.githubusercontent.com/88179607/134353835-6e9abed3-99bb-4ae6-a67c-82b4cccabc5a.png)
-![Desktop Screenshot 2021 09 22 - 17 02 52 84 (2)](https://user-images.githubusercontent.com/88179607/134353866-977695a6-1227-4395-9a38-8fabeaebc8b8.png)
-![Desktop Screenshot 2021 09 22 - 17 03 17 36 (2)](https://user-images.githubusercontent.com/88179607/134353880-fc445ec6-d9c3-45e8-be36-b9cc132f3605.png)
+![Desktop Screenshot 2021 09 25 - 01 02 12 95 (2)](https://user-images.githubusercontent.com/88179607/134742286-7a605e52-c831-447b-aa9b-40809a780bd2.png)
+![Desktop Screenshot 2021 09 25 - 01 02 37 12 (2)](https://user-images.githubusercontent.com/88179607/134742296-c80671ae-95c9-48fb-a501-e20839b84493.png)
+![Desktop Screenshot 2021 09 25 - 01 03 01 21 (2)](https://user-images.githubusercontent.com/88179607/134742242-0b9a6bc8-2a15-4ea7-a8ea-4374f26618d4.png)
